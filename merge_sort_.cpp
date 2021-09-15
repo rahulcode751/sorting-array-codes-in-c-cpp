@@ -1,3 +1,5 @@
+It is the recursion method this code have a time complexity of tc = O(logn)
+       
 #include<iostream>
 using namespace std;
 
