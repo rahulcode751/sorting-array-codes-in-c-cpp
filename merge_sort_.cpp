@@ -1,6 +1,6 @@
 /* It is the recursion method and a non inplace method of sorting
 the sorting function is taking (O)(logn)
-but the overal Tc is O(n) bcz merge function is taking O(n) Tc        */
+But space complexity is O(n) due to merge fucntion        */
 #include<iostream>
 using namespace std;
 
