@@ -1,5 +1,6 @@
-It is the recursion method this code have a time complexity of tc = O(logn)
-       
+It is the recursion method and a non inplace method of sorting
+the sorting function is taking (O)(logn)
+but the overal Tc is O(n) bcz merge function is taking O(n) Tc       
 #include<iostream>
 using namespace std;
 
