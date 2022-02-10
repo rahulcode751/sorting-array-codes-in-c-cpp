@@ -1,10 +1,12 @@
- // It is the recursion method this code have a time complexity of tc = O(logn)
+/// It is the recursion method this code have a time complexity of tc = O(logn)
+/// This code only works when you take last element as pivot,better if you use middle element as pivot to learn the concept more precisely
+
 #include<iostream>
 using namespace std;
 
 int partition(int a[],int s,int e){
      int i=s;
-     int pivot = a[e];
+     int pivot = a[e];   /// here i have use last element as pivot it can be solve in more two ways by taking first or middle element as pivot
      for(int j=s;j<=e-1;j++){
         if(a[j] < pivot){
             swap(a[i],a[j]);
