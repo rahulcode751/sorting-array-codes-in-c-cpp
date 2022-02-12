@@ -3,7 +3,7 @@ using namespace std;
 
 void inplaceHeapSort(int *pq, int n){
    /// Build the heap in input array
-   for(int i=1;i<n;i++){  // elem 1 se star kr rhe h kyuki 0yh pehle se hi healp me le rhe h hm
+   for(int i=1;i<n;i++){  
     int cI = i;
     while(cI > 0){
         int pI = (cI-1)/2;
